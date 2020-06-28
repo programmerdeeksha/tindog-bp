@@ -1,0 +1,156 @@
+body{
+  font-family: "Montserrat";
+}
+ #title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family:"Montserrat";
+   font-weight: bolder;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 600;
+
+
+}
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item {
+   padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+
+}
+@media (max-width: 1000px)
+{
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* Features */
+h3{
+  font-family: "Montserrat-bolder";
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+p{
+  width: 100%;
+  color: #8f8f8f;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.col{
+  text-align: center;
+  padding: 5%;
+}
+.icons{
+  color:#d9534f;
+align-content: center;
+margin-bottom: 1.5rem;
+}
+.icons:hover{
+  color:#ff4c68;
+}
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #d9534f;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press */
+#press{
+  background-color: #d9534f;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 10px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2% 3%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+line-height: 1.5rem;
+  font-family: "Montserrat";
+color: white;
+padding-bottom: 50px;
+}
+.cta-text{
+width:50%;
+font-weight: 500;
+font-size: 3rem;
+margin-left: 300px;
+padding: 50px 0;
+}
+.bt{
+  margin-right: 16px;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+.icon{
+  margin-right: 25px;
+
+}
+.fp{
+  padding-top: 20px;
+}
